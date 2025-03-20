@@ -4,7 +4,10 @@
 - Select fonts (Need to find IKEA font)
  
 ### To do
-- link to Tony's termianl window
+
+- githib links
+- add MERIT, Mission Central, MIKEA
+- White background
 - username & password login
 - ~~Add bulleted list to left panel~~
 - ~~Fix mood and hyper links~~
@@ -13,3 +16,4 @@
 - Fix project display
 - Simplify text
 - Select colors
+- link to Tony's termianl window
