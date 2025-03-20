@@ -74,7 +74,9 @@ h2 {
     /* background-color: white; */
     /* color:white; */
     padding: 1em;
-    font-size: 1em;
+    font-size: medium;
+    color: var(--theBlue);
+    /* font-size: 1em; */
   }
 
   select {
@@ -129,7 +131,7 @@ section p:first-letter {
     display: flex;
     flex-direction: row;
     justify-items:stretch;
-    align-items: baseline;
+    align-items: center;
     /* justify-content: stretch; */
     /* background-color: white; */
     padding: 1em;
@@ -233,6 +235,7 @@ section p:first-letter {
 
  .citation {
     text-indent: 0;
+    font-size:large;
     font-style: italic;
     /* color: #ded011;
     background: #343232; */
@@ -467,4 +470,19 @@ section p:first-letter {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+/*WHY IS THIS NOT WORKING?*/
+
+  @media only screen and (max-width: 768px) {
+    .navStrip {
+      display:none;
+    }
+    .slideshow-container {
+      display:none;
+    }
+    .dot  {
+      display:none;
+    }
+  
   }
