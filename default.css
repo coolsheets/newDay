@@ -2,8 +2,8 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    --theYellow: hsl(50, 100%, 50%);
-    --theBlue: hsl(230, 100%, 50%);
+    --fontColor4dark: #ff8000;
+    --fontColor4lite:#007fff;
   }
 
   html {
@@ -21,7 +21,7 @@
     font-size: 2em;
     /* letter-spacing: 00.001em; */
     /* word-spacing: 0.1em; */
-    color: var(--theYellow);
+    color: var(--fontColor4dark);
     /* font-weight: 700; */
     text-decoration: none;
     font-style: normal;
@@ -75,7 +75,7 @@ h2 {
     /* color:white; */
     padding: 1em;
     font-size: medium;
-    color: var(--theBlue);
+    color: var(--fontColor4lite);
     /* font-size: 1em; */
   }
 
@@ -110,7 +110,7 @@ section p:first-letter {
   line-height: 1;
   margin-right: 0.05em;
 
-  color: var(--theBlue);
+  color: var(--fontColor4lite);
   font-size: 250%;
   font-weight: 900;
 	/* text-shadow: 1px 1px black, -1px 1px black, 1px -1px black, -1px -1px black,
@@ -183,7 +183,7 @@ section p:first-letter {
   }
   
   .firstLarge {
-    color: var(--theBlue);
+    color: var(--fontColor4lite);
     clear:left;
     align-items: center;
     position:absolute;
@@ -294,7 +294,7 @@ section p:first-letter {
     width: auto;
     padding: 16px;
     margin-bottom: -22px;
-    /* color:  var(--theYellow); */
+    /* color:  var(--fontColor4dark); */
     font-weight: bold;
     font-size: 30
   px;
@@ -317,7 +317,7 @@ section p:first-letter {
   
   /* Caption text */
   .text {
-    color:   var(--theYellow);
+    color:   var(--fontColor4dark);
     font-weight: bold;
     font-size: 30;
     padding: 8px 12px;
@@ -353,7 +353,7 @@ section p:first-letter {
   }
   
   .active, .dot:hover {
-    background-color:   var(--theYellow);
+    background-color:   var(--fontColor4dark);
   }
   
   /* Fading animation */
@@ -435,7 +435,7 @@ section p:first-letter {
   a {
     padding: 0.5em;
     margin: 0.5em;
-    color: var(--theBlue);
+    color: var(--fontColor4lite);
   }
   
   a:link, a:visited {
